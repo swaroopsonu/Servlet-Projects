@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+<servlet-name>DisServlet</servlet-name>
+<servlet-class>test.DisServlet</servlet-class>
+<init-Param>
+<param-name>cName</param-name>
+<param-value>3000</param-value>
+</init-Param>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>DisServlet</servlet-name>
+<url-pattern>/dis</url-pattern>
+</servlet-mapping>
+</web-app>

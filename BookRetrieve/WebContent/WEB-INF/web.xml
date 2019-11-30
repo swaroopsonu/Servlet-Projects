@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+<servlet-name>BRetrieve</servlet-name>
+<servlet-class>test.BRetrieve</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>BRetrieve</servlet-name>
+<url-pattern>/pqr</url-pattern>
+</servlet-mapping>
+
+<welcome-file-list>
+<welcome-file>retrive.html</welcome-file>
+</welcome-file-list>
+</web-app>
